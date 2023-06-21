@@ -1,0 +1,152 @@
+@media screen and (min-width: 1200px) and (max-width: 4000px)
+{     
+  .App{
+    width: 100%;
+  }
+  .Home{
+    width: 100%;
+  }
+  .Main{
+    width: 100%;
+  }
+  .ymap{
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{     
+    .App{
+      width: 100%;
+    }
+    .Home{
+      width: 100%;
+    }
+    .ymap{
+      width: 400px;
+      height: 400px;
+      display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{     
+  .App{
+    width: 100%;
+  }
+  .Home{
+    width: 100%;
+  }
+  .Main{
+    width: 100%;
+  }
+  .ymap{
+    width: 300px;
+    height: 300px;
+  }
+  .content__Main{
+    display: block;
+  }
+  
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+{     
+  .App{
+    width: 100%;
+  }
+  .Home{
+    width: 100%;
+  }
+  .Main{
+    width: 100%;
+  }
+  .ymap{
+    width: 250px;
+    height: 250px;
+    
+  }
+  .Main .content__Main{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .content__Map{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .content__Events{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .content__myEvents{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .popupNav__App{ 
+    width: 130px;
+  }
+  .popupNav__App input, button{  
+    width: 125px;
+    height: 25px;
+  }
+  
+  
+  
+}
+
+@media screen and (min-width: 0px) and (max-width: 575px)
+{     
+  .App{
+    width: 100%;
+  }
+  .Home{
+    width: 100%;
+  }
+  .Main{
+    width: 100%;
+  }
+  .ymap{
+    width: 200px;
+    height: 200px;
+  }
+
+  .content__Home{
+    display: block;
+  }
+  .Main .content__Main{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .content__Map{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .content__Events{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  .content__myEvents{
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+  }
+
+  .popupNav__App input, button{  
+    width: 125px;
+    height: 25px;
+  }
+  .popupNav__App{ 
+    width: 130px;
+  }
+  
+}

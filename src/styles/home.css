@@ -1,0 +1,156 @@
+.App{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header_App{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.nav__App{
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    background: linear-gradient(to bottom, rgb(18, 17, 17), #000000);
+    
+}
+
+
+
+
+.nav__App a{
+    display: inline-block;
+    padding: 1%;
+    text-decoration: none;
+    color: plum;
+}
+a:active{
+    color: gold;
+}
+a:hover{
+    color: goldenrod;
+}
+h1{
+    margin: 0px;
+}
+
+
+
+
+.Home{
+    background-color: rgb(18, 17, 17);
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    
+}
+.content__Home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10%;
+}
+.info__Home p{
+    display: block;
+    padding-top: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+.blockCourt__Home{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 5%;
+}
+.blockLine__Home{
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    padding-top: 5%;
+}
+.blockSociety__Home{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#courtImg{
+    width: 250px;
+    height: 183px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#societyImg{
+    width: 328px;
+    height: 183px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#header__info{
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+#footer__info{
+    font-size: 14px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+}
+
+
+
+
+
+.popupNav__App{
+    background-color: black;
+    border-radius: 10px;
+    width: 275px;
+    height: auto;
+}
+.popupNav__App input, button{
+    display: block;
+    margin: auto;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    background-color: black;
+    background: linear-gradient(to top, rgb(18, 17, 17), #000000);
+    margin: 0%;
+}
+footer p, h2{
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
